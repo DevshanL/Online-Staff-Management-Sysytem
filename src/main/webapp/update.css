@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+body{
+	margin:0;
+	padding:0; 
+}
+
+header{
+	background-image: url(logcover.jpg);
+	height: 15vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.log{text-decoration: none;
+	color: white;
+	font-family:helvetica;
+	line-height: 50px;
+	display: white;
+	font-weight:bold;
+	font-size: 50px;
+}
+body{
+	background-image: url(logback.jpg);
+	background-position: center;
+	height: 150vh;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.text{text-decoration: none;
+	color: #FF8E00;
+	font-family:Impact;
+	line-height: 50px;
+	display: white;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.square{
+	
+	width: 800px;
+	height: 750px;
+	margin-top:100px;
+	margin-left:360px;
+	background-position: center;
+	border-radius: 100px;
+	background: #33c4e8;
+}
+
+h2{	font-family:Arial;
+	margin-bottom:10px;
+	color:black;
+	font-size:30px;
+	float:center;
+	
+}
+
+input[type=text] {
+  	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+  }
+  
+ input[type=text] {
+  	border: 2px solid #FF8500;
+  	border-radius: 5px;
+  	background-color: black;
+  	color: white;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  	background-color: #ffff00;
+  	font-family:Arial Black;
+  	border: none;
+  	font-size:20px;
+  	color: #000080;
+  	padding: 16px 32px;
+  	text-decoration: none;
+  	margin-left:230px;
+  	cursor: pointer;
+  	border-radius: 10px;
+  
+}
+
+h1{	font-family:Brush Script MT;
+   	font-size:70px;
+   	color: black;
+}
+
+h3{
+	font-family:Comic Sans MS;
+	font-size:30px;
+	margin-left:170px;
+	
+}
+
+h5{
+	font-family:Verdana;
+	font-size:20px;
+    padding: 1px 70px;
+    margin: 10px 150px;
+  	background-position: center;
+	color: #ffffff;
+	background-color: #151B54;
+	border-radius: 200px;
+	height:40px;
+	width:350px;
+	
+}
+
+.ema{
+	font-family:helvetica;
+	font-size:20px;
+	margin-bottom:2px;
+	color:black;}
+
+footer {
+	
+	
+    background-image: url(logcover.jpg);
+    height:170px;
+    width:100%;
+   	text-align: center;
+    color: white;
+	
+}
+

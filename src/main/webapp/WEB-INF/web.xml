@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    
+    <!--create Request Salary servlet-->    
+	<servlet>
+		<servlet-name>Request Salary</servlet-name>
+		<servlet-class>com.staffMan.requestSalServlet</servlet-class>
+	</servlet>
+	
+	 <!--create Request Salary servlet mapping-->  
+	<servlet-mapping>
+		<servlet-name>Request Salary</servlet-name>
+		<url-pattern>/request</url-pattern>
+	</servlet-mapping>
+	
+	<!--create Search servlet--> 
+	<servlet>
+		<servlet-name>Search</servlet-name>
+		<servlet-class>com.staffMan.searchServlet</servlet-class>
+	</servlet>
+	
+	<!--create Search servlet mapping-->  
+	<servlet-mapping>
+		<servlet-name>Search</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+	
+	<!--create Apply increment servlet-->  
+	<servlet>
+    	<servlet-name>Apply increment</servlet-name>
+    	<servlet-class>com.staffMan.staffPromoInsert</servlet-class>
+    </servlet>
+    
+    <!--create Apply increment servlet mapping-->   
+    <servlet-mapping>
+    	<servlet-name>Apply increment</servlet-name>
+    	<url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+    
+     <!--create Create Salary servlet--> 
+    <servlet>
+    	<servlet-name>Create Salary</servlet-name>
+    	<servlet-class>com.staffMan.salaryCreateServlet</servlet-class>
+    </servlet>
+    
+     <!--create Create Salary servlet mapping-->  
+    <servlet-mapping>
+    	<servlet-name>Create Salary</servlet-name>
+    	<url-pattern>/insertt</url-pattern>
+    </servlet-mapping>
+    
+    <!--create Update Account servlet-->   
+    <servlet>
+    	<servlet-name>Update Account</servlet-name>
+    	<servlet-class>com.staffMan.updateSalAcServlet</servlet-class>
+    </servlet>
+    
+    <!--create Update Account servlet mapping--> 
+    <servlet-mapping>
+    	<servlet-name>Update Account</servlet-name>
+    	<url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    
+    <!--create Delete invoice servlet--> 
+    <servlet>
+    	<servlet-name>Delete Invoice</servlet-name>
+    	<servlet-class>com.staffMan.deleteInServlet</servlet-class>
+    </servlet>
+    
+   <!--create Delete invoice servlet mapping-->
+     <servlet-mapping>
+    	<servlet-name>Delete Invoice</servlet-name>
+    	<url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+  
+         
+</web-app>        
